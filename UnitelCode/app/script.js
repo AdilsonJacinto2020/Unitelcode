@@ -17,7 +17,7 @@ calcularIdade.addEventListener("click", function(event) {
     let milissegundosEmAnos = 1000 * 60 * 60 * 24 * 365.25;
     let diferencaEmAnos = diferencaEmMilissegundos / milissegundosEmAnos;
 
-    resultado.innerHTML = "Idade: " + Math.floor(diferencaEmAnos)+"ano(s)";
+    resultado.innerHTML = "Idade: " + Math.floor(diferencaEmAnos)+" ano(s)";
 
     if(diferencaEmAnos >= 18){
         votar.innerHTML = "É maior de Idade já pode votar";
